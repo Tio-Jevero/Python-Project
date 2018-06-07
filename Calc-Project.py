@@ -7,8 +7,8 @@ Facebook: Empty Mind
 Github  : https://github.com/fluster
 
 '''
-
-
+#This Version is For Linux
+#Versi ini hanya untuk Linux
 
 import os
 import sys
@@ -31,7 +31,7 @@ class color:
 
 #intro
 def intro() :
-	os.system('cls')
+	os.system('clear')
 	print(color.WARNING + "		==============================" + color.END)	
 	print(color.RED + "		|----Welcome to This Tool----|    " + color.END)
 	print(color.WARNING + "		==============================" + color.END)
@@ -51,7 +51,7 @@ def intro() :
 	
 	#Untuk Menu Penjumlahan
 	def penjumlahan() :
-		os.system('cls')
+		os.system('clear')
 		print(color.WARNING + "		=======================================" + color.END)	
 		print(color.RED + "		 Selamat Datang di Program Penjumlahan    " + color.END)
 		print(color.WARNING + "		=======================================" + color.END)
@@ -81,7 +81,7 @@ def intro() :
 
 	#Untuk Menu Pengurangan
 	def pengurangan() :
-		os.system('cls')
+		os.system('clear')
 		print(color.WARNING + "		=======================================" + color.END)	
 		print(color.RED + "		 Selamat Datang di Program Pengurangan    " + color.END)
 		print(color.WARNING + "		=======================================" + color.END)
@@ -112,7 +112,7 @@ def intro() :
 
 	#Untuk Menu Perkalian
 	def perkalian() :
-		os.system('cls')
+		os.system('clear')
 		print(color.WARNING + "		=======================================" + color.END)	
 		print(color.RED + "		 Selamat Datang di Program Perkalian    " + color.END)
 		print(color.WARNING + "		=======================================" + color.END)
@@ -141,7 +141,7 @@ def intro() :
 
 	#Untuk Menu Pembagian
 	def pembagian() :
-		os.system('cls')
+		os.system('clear')
 		print(color.WARNING + "		=======================================" + color.END)	
 		print(color.RED + "		 Selamat Datang di Program Pembagian    " + color.END)
 		print(color.WARNING + "		=======================================" + color.END)
